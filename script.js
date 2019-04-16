@@ -1,0 +1,9 @@
+$("#fbutton").click(function(){
+    $("#flower").slideToggle();
+});
+$("#rbutton").click(function(){
+    $("#forest").fadeToggle();
+});
+$("#wbutton").click(function(){
+    $("#water").hide();
+});
